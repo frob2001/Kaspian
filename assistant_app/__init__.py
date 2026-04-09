@@ -1,0 +1,1 @@
+"""Kaspian assistant application package."""

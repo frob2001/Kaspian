@@ -1,0 +1,129 @@
+QMainWindow, QWidget#DashboardRoot {
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+        stop:0 #080b12, stop:0.45 #0d1320, stop:1 #131a28);
+    color: #ecf3ff;
+    font-family: "Segoe UI", "Noto Sans", sans-serif;
+}
+
+QWidget#ClockCard,
+QWidget#CalendarCard,
+QWidget#StatusCard,
+QWidget#TranscriptCard,
+QWidget#CameraCard,
+QWidget#PersonCard,
+QWidget#MusicCard,
+QWidget#OrbCard {
+    background-color: rgba(10, 16, 28, 0.82);
+    border: 1px solid rgba(109, 148, 255, 0.16);
+    border-radius: 24px;
+}
+
+QLabel#SectionTitle {
+    font-size: 17px;
+    font-weight: 600;
+    color: #bcd1ff;
+    letter-spacing: 0.6px;
+}
+
+QLabel#ClockTime {
+    font-size: 64px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+QLabel#ClockDate {
+    font-size: 18px;
+    color: #9fb5d9;
+}
+
+QLabel#StatusMode {
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+QLabel#StatusDetail,
+QLabel#DialogPrompt {
+    font-size: 15px;
+    color: #8ea8d2;
+}
+
+QLabel#CameraFeed,
+QLabel#FacePreview {
+    background-color: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 18px;
+    color: #6f829e;
+    font-size: 15px;
+}
+
+QLabel#PersonName {
+    font-size: 26px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+QTextEdit#TranscriptBox {
+    background-color: rgba(1, 6, 16, 0.55);
+    border-radius: 18px;
+    border: 1px solid rgba(119, 149, 255, 0.16);
+    padding: 14px;
+    color: #e7f0ff;
+    font-size: 15px;
+}
+
+QLineEdit#ManualInput,
+QLineEdit {
+    background-color: rgba(8, 14, 24, 0.95);
+    border: 1px solid rgba(119, 149, 255, 0.20);
+    border-radius: 14px;
+    padding: 12px 14px;
+    color: #f4f7ff;
+    font-size: 15px;
+}
+
+QPushButton {
+    min-height: 42px;
+    padding: 0 18px;
+    border-radius: 14px;
+    border: 1px solid rgba(119, 149, 255, 0.18);
+    background-color: rgba(20, 32, 52, 0.92);
+    color: #f2f7ff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+QPushButton:hover {
+    background-color: rgba(36, 53, 86, 0.98);
+}
+
+QPushButton#PrimaryButton {
+    background-color: #39a0ff;
+    border-color: #39a0ff;
+    color: #04111f;
+}
+
+QPushButton#PrimaryButton:hover {
+    background-color: #68b6ff;
+}
+
+QCalendarWidget QWidget {
+    alternate-background-color: transparent;
+}
+
+QCalendarWidget QToolButton {
+    color: #ecf3ff;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: transparent;
+    margin: 4px;
+}
+
+QCalendarWidget QTableView {
+    selection-background-color: rgba(68, 194, 255, 0.25);
+    selection-color: #ffffff;
+    background-color: rgba(3, 7, 14, 0.15);
+    color: #cdd9ee;
+    border: none;
+    outline: none;
+}
